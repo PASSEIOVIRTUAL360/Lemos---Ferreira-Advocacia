@@ -1,430 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.9" start="node1" apprev="20995" hassounds="0">
+<tour apprev="20995" start="node1" hassounds="0" appversion="7.1.9">
   <panorama id="node1">
-    <input levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="36.919" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="768.10" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52848883" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node1" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="36.919" latitude="-23.65389867"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node2}" distance="3.76375" pan="-0.20005"/>
+    <userdata nodeid="node1" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538987,-46.5284888,3a,75y,36.92h,90t/data=!3m4!1e1!3m2!1sCIABIhBdKn7P-NM6J5asbGpSX_69!2e10" info="Lemos &amp; Ferreira Advocacia" heading="36.919" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65389867" altitude="768.10" longitude="-46.52848883"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-0.20005" url="{node2}" target="$fwd" distance="3.76375" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="38.424" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="766.40" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52846653" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node2" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="38.424" latitude="-23.65387168"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node1}" distance="3.76375" pan="181.305"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node3}" distance="3.7439" pan="0.0877786"/>
+    <userdata nodeid="node2" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538717,-46.5284665,3a,75y,38.42h,90t/data=!3m4!1e1!3m2!1sCIABIhAK8uvwzZtxAh2KJ4tng4UV!2e10" info="Lemos &amp; Ferreira Advocacia" heading="38.424" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65387168" altitude="766.40" longitude="-46.52846653"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="181.305" url="{node1}" target="$fwd" distance="3.76375" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="0.0877786" url="{node3}" target="$fwd" distance="3.7439" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="136.127" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="766.40" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52844373" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node3" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="136.127" latitude="-23.65384527"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node2}" distance="3.7439" pan="277.791"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node4}" distance="2.99415" pan="2.0533"/>
+    <userdata nodeid="node3" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538453,-46.5284437,3a,75y,136.13h,90t/data=!3m4!1e1!3m2!1sCIABIhDs5m3jdbrwRGXIEj6wiQ2Z!2e10" info="Lemos &amp; Ferreira Advocacia" heading="136.127" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65384527" altitude="766.40" longitude="-46.52844373"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="277.791" url="{node2}" target="$fwd" distance="3.7439" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="2.0533" url="{node4}" target="$fwd" distance="2.99415" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-243.191" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="773.50" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52842261" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node4" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-243.191" latitude="-23.65386400"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node3}" distance="2.99415" pan="-197.265"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node5}" distance="3.37615" pan="-294.355"/>
+    <userdata nodeid="node4" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.653864,-46.5284226,3a,75y,116.81h,90t/data=!3m4!1e1!3m2!1sCIABIhBrRW8raUAXn7sWvf8l-C2v!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-243.191" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65386400" altitude="773.50" longitude="-46.52842261"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-197.265" url="{node3}" target="$fwd" distance="2.99415" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="-294.355" url="{node5}" target="$fwd" distance="3.37615" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="30.9047" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="774.60" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52839679" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node5" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="30.9047" latitude="-23.65384496"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node4}" distance="3.37615" pan="159.74"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node6}" distance="3.74708" pan="78.4883"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point03" url="{node8}" distance="4.35544" pan="2.33497"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point04" url="{node9}" distance="6.56863" pan="39.8789"/>
+    <userdata nodeid="node5" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.653845,-46.5283968,3a,75y,30.9h,90t/data=!3m4!1e1!3m2!1sCIABIhB8hAVpwyaeOycX-XvWYv43!2e10" info="Lemos &amp; Ferreira Advocacia" heading="30.9047" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65384496" altitude="774.60" longitude="-46.52839679"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="159.74" url="{node4}" target="$fwd" distance="3.37615" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="78.4883" url="{node6}" target="$fwd" distance="3.74708" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point03" pan="2.33497" url="{node8}" target="$fwd" distance="4.35544" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point04" pan="39.8789" url="{node9}" target="$fwd" distance="6.56863" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-52.1195" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="770.60" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52842395" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node6" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-52.1195" latitude="-23.65382223"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node5}" distance="3.74708" pan="-184.536"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node7}" distance="3.5701" pan="52.8624"/>
+    <userdata nodeid="node6" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538222,-46.5284239,3a,75y,307.88h,90t/data=!3m4!1e1!3m2!1sCIABIhBCzDoBaavvDcAfapKonLBK!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-52.1195" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65382223" altitude="770.60" longitude="-46.52842395"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-184.536" url="{node5}" target="$fwd" distance="3.74708" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="52.8624" url="{node7}" target="$fwd" distance="3.5701" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-38.5204" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="768.50" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52845781" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node7" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-38.5204" latitude="-23.65383053"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node6}" distance="3.5701" pan="-113.539"/>
+    <userdata nodeid="node7" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538305,-46.5284578,3a,75y,321.48h,90t/data=!3m4!1e1!3m2!1sCIABIhDdtjtFc28rS19ORJUVB6op!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-38.5204" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65383053" altitude="768.50" longitude="-46.52845781"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-113.539" url="{node6}" target="$fwd" distance="3.5701" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-311.405" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="761.30" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52837634" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node8" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-311.405" latitude="-23.65381056"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node5}" distance="4.35544" pan="-159.975"/>
+    <userdata nodeid="node8" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6538106,-46.5283763,3a,75y,48.6h,90t/data=!3m4!1e1!3m2!1sCIABIhCjGHTp_0At894SwQHID_qr!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-311.405" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65381056" altitude="761.30" longitude="-46.52837634"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-159.975" url="{node5}" target="$fwd" distance="4.35544" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="53.6207" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="752.50" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52840685" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node9" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="53.6207" latitude="-23.65378661"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node10}" distance="3.55532" pan="-5.12332"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node5}" distance="6.56863" pan="-117.405"/>
+    <userdata nodeid="node9" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537866,-46.5284069,3a,75y,53.62h,90t/data=!3m4!1e1!3m2!1sCIABIhDlviovUZdN_c3I3qtyFgi2!2e10" info="Lemos &amp; Ferreira Advocacia" heading="53.6207" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65378661" altitude="752.50" longitude="-46.52840685"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="-5.12332" url="{node10}" target="$fwd" distance="3.55532" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-117.405" url="{node5}" target="$fwd" distance="6.56863" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="172.725" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="743.20" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52837701" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node10" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="172.725" latitude="-23.65377002"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node9}" distance="3.55532" pan="293.981"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node11}" distance="4.21177" pan="124.309"/>
+    <userdata nodeid="node10" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.65377,-46.528377,3a,75y,172.73h,90t/data=!3m4!1e1!3m2!1sCIABIhB8-nZSRvEwZbb96D3EO8cg!2e10" info="Lemos &amp; Ferreira Advocacia" heading="172.725" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65377002" altitude="743.20" longitude="-46.52837701"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="293.981" url="{node9}" target="$fwd" distance="3.55532" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="124.309" url="{node11}" target="$fwd" distance="4.21177" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-181.157" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="764.80" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52834608" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node11" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-181.157" latitude="-23.65374488"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node10}" distance="4.21177" pan="-49.5727"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node12}" distance="3.82612" pan="-234.486"/>
+    <userdata nodeid="node11" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537449,-46.5283461,3a,75y,178.84h,90t/data=!3m4!1e1!3m2!1sCIABIhA54b-2cP_3oRvvFm0GVRMN!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-181.157" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65374488" altitude="764.80" longitude="-46.52834608"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-49.5727" url="{node10}" target="$fwd" distance="4.21177" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="-234.486" url="{node12}" target="$fwd" distance="3.82612" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-222.972" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="765.00" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52831595" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node12" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-222.972" latitude="-23.65372433"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node11}" distance="3.82612" pan="-96.3006"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node13}" distance="3.02105" pan="-364.26"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point03" url="{node14}" distance="3.51063" pan="-276.313"/>
+    <userdata nodeid="node12" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537243,-46.5283159,3a,75y,137.03h,90t/data=!3m4!1e1!3m2!1sCIABIhCr44dUzJqAxXiBlFpVZKhX!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-222.972" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65372433" altitude="765.00" longitude="-46.52831595"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-96.3006" url="{node11}" target="$fwd" distance="3.82612" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="-364.26" url="{node13}" target="$fwd" distance="3.02105" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point03" pan="-276.313" url="{node14}" target="$fwd" distance="3.51063" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-204.509" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="761.00" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52829740" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node13" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-204.509" latitude="-23.65374553"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node12}" distance="3.02105" pan="-165.797"/>
+    <userdata nodeid="node13" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537455,-46.5282974,3a,75y,155.49h,90t/data=!3m4!1e1!3m2!1sCIABIhCIeC4xuXpqJvDmuVir64Yj!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-204.509" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65374553" altitude="761.00" longitude="-46.52829740"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-165.797" url="{node12}" target="$fwd" distance="3.02105" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelingroll="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="150.954" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="758.80" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52828830" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node14" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="150.954" latitude="-23.65370548"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node12}" distance="3.51063" pan="277.613"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node15}" distance="3.14572" pan="1.35658"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point03" url="{node16}" distance="3.45739" pan="94.7165"/>
+    <userdata nodeid="node14" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537055,-46.5282883,3a,75y,150.95h,90t/data=!3m4!1e1!3m2!1sCIABIhDfV601ApbHVzUiNFBRpaSS!2e10" info="Lemos &amp; Ferreira Advocacia" heading="150.954" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65370548" altitude="758.80" longitude="-46.52828830"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="277.613" url="{node12}" target="$fwd" distance="3.51063" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="1.35658" url="{node15}" target="$fwd" distance="3.14572" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point03" pan="94.7165" url="{node16}" target="$fwd" distance="3.45739" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node15">
-    <input levelingroll="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-215.459" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="758.80" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52827267" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node15" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="-215.459" latitude="-23.65372988"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node14}" distance="3.14572" pan="-185.056"/>
+    <userdata nodeid="node15" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537299,-46.5282727,3a,75y,144.54h,90t/data=!3m4!1e1!3m2!1sCIABIhCQq4vpsaPXNphvewcpOmM1!2e10" info="Lemos &amp; Ferreira Advocacia" heading="-215.459" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65372988" altitude="758.80" longitude="-46.52827267"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="-185.056" url="{node14}" target="$fwd" distance="3.14572" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node16">
-    <input levelingroll="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="141.949" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="758.80" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52826008" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node16" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="141.949" latitude="-23.65368820"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node14}" distance="3.45739" pan="265.711"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point02" url="{node17}" distance="2.85207" pan="0.996068"/>
+    <userdata nodeid="node16" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6536882,-46.5282601,3a,75y,141.95h,90t/data=!3m4!1e1!3m2!1sCIABIhDQ4GMLzpGOkDbFtxp0hdk-!2e10" info="Lemos &amp; Ferreira Advocacia" heading="141.949" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65368820" altitude="758.80" longitude="-46.52826008"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="265.711" url="{node14}" target="$fwd" distance="3.45739" skinid="ht_node"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point02" pan="0.996068" url="{node17}" target="$fwd" distance="2.85207" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <panorama id="node17">
-    <input levelingroll="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" height="2000" overlap="1" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2000" height="2000" preload="0" predecode="0"/>
-      <level width="1000" height="1000" preload="0" predecode="0"/>
-      <level width="500" height="500" preload="1" predecode="1"/>
+    <input height="2000" levelingroll="0" levelingpitch="0" width="2000" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510">
+      <level height="2000" predecode="0" width="2000" preload="0"/>
+      <level height="1000" predecode="0" width="1000" preload="0"/>
+      <level height="500" predecode="1" width="500" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="140.003" fovmode="2">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" fov="140" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="140" tilt="90" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata datetime="04/08/2025 13:06" title="Lemos &amp; Ferreira Advocacia" altitude="755.10" description="Lemos &amp; Ferreira Advocacia" comment="Lemos &amp; Ferreira Advocacia" info="Lemos &amp; Ferreira Advocacia" copyright="Lemos &amp; Ferreira Advocacia" longitude="-46.52824244" customnodeid="" source="Lemos &amp; Ferreira Advocacia" nodeid="node17" tags="OFIII" author="Lemos &amp; Ferreira Advocacia" heading="140.003" latitude="-23.65370812"/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label enabled="1" borderalpha="1" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot tilt="0" title="Lemos &amp; Ferreira Advocacia" skinid="ht_node" description="" target="$fwd" id="Point01" url="{node16}" distance="2.85207" pan="179.05"/>
+    <userdata nodeid="node17" title="Lemos &amp; Ferreira Advocacia" description="Lemos &amp; Ferreira Advocacia" author="Lemos &amp; Ferreira Advocacia" customnodeid="" copyright="Lemos &amp; Ferreira Advocacia" source="Lemos &amp; Ferreira Advocacia" datetime="04/08/2025 13:06" tags="OFIII" streetviewlink="https://www.google.com/maps/@-23.6537081,-46.5282424,3a,75y,140h,90t/data=!3m4!1e1!3m2!1sCIABIhD1cTP_S6oPbemA7Csag2Wx!2e10" info="Lemos &amp; Ferreira Advocacia" heading="140.003" comment="Lemos &amp; Ferreira Advocacia" latitude="-23.65370812" altitude="755.10" longitude="-46.52824244"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" textalpha="1" textcolor="0x000000" width="180" borderalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" background="1" borderradius="1" bordercolor="0x000000" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="Lemos &amp; Ferreira Advocacia" description="" tilt="0" id="Point01" pan="179.05" url="{node16}" target="$fwd" distance="2.85207" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendtime="1" blendcolor="0x000000" zoomspeed="2" type="mesh" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" delay="none" zoomout="0" zoomin="7" zoomfov="40" zoomoutpause="1"/>
-    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control zoomcentercursor="1" lockedkeyboardzoom="0" invertwheel="0" contextfullscreen="1" speedwheel="1" hideabout="0" rubberband="0" lockedwheel="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomspeed="2" zoomin="7" enabled="1" delay="none" zoomfov="40" zoomafterinfov="140" softedge="0" type="mesh" zoomafteroutfov="40" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" simulatemass="1" speedwheel="1" sensitivity="8" hideabout="0" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" contextvr="1" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0"/>
   </panorama>
   <masternode>
-    <userdata title="" description="" comment="" tags="" author="" copyright=""/>
+    <userdata title="" description="" author="" tags="" copyright="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
